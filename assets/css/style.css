@@ -1,0 +1,114 @@
+/* IMPOSTAZIONI GENERALI */
+.box>.sfondo{
+     display: inline-block;
+    box-sizing: border-box;
+}
+
+.sfondo{
+   font-family: 'Times New Roman', Times, serif;
+    background-image:url(../img/sfondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+/* HEADER */
+ 
+header{
+    background-color: #0099cc; 
+    box-shadow: 5px 5px 5px gray;
+    background-attachment: fixed;
+    background-position: top;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 5%;
+    
+}
+.logo{
+        margin-top: 1%;
+        margin-bottom: auto;
+        margin-left: 20%;
+        }
+.h2{
+    color: white;
+    text-align: center;
+    font-size: large;
+    }
+    
+    a:link, a:visited {
+        text-decoration: underline;
+        color: white;
+    }
+
+/* MAIN */
+main{
+    background-color: white;
+    text-align:left;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 5%;
+    box-shadow: 3px 3px 3px gray;
+}
+
+
+
+.span{
+    color: blue;
+}
+
+
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.em {
+    color:blueviolet; font-weight: bold;
+}
+
+.botton{
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    border:none;
+    outline: none;
+    display: block;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+/* TABELLE */
+
+.table{
+    width: 100%;
+    border: 1px solid black;
+    margin-right: 1%;
+    }
+.th{ background-color: cornflowerblue;}
+.tr:nth-child(odd) { background-color: aliceblue;}
+
+
+
+/* FORM */
+.video{
+    border-radius: 10%;
+}
+
+.banner{
+    background-color: gray;
+    opacity: 60%;
+   }
+
+
+
+
+/* ELEMENTI NELL' ASIDE */
+.box1{
+    background-color: grey;
+    opacity: 60%;
+}
+
+/* FOOTER */
